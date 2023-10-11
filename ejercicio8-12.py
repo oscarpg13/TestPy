@@ -14,19 +14,13 @@ while True:
         print(numList[:5])
     elif opcion == "2":
         print("Números pares:")
-        for num in numList:
-            if num % 2 == 0:
-                print(num)
+        print(numList[1::2])
     elif opcion == "3":
         print("Números impares:")
-        for num in numList:
-            if num % 2 != 0:
-                print(num)
+        print(numList[::2])
     elif opcion == "4":
         print("Múltiplos de 5:")
-        for num in numList:
-            if num % 5 == 0:
-                print(num)
+        print(numList[4::5])
     elif opcion == "5":
         print("¡Hasta luego!")
         break
